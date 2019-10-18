@@ -667,7 +667,7 @@ var _hmt = _hmt || [];
 
 <h2 id="depend">depend</h2>
 <p>Install with <code>pip</code>:</p>
-<pre><code class="sh">pip install mkdocs-material
+<pre><code class="sh">$   pip install -r requirements.txt
 </code></pre>
 
 <p>Append to <code>mkdocs.yml</code>:</p>
@@ -675,11 +675,36 @@ var _hmt = _hmt || [];
   name: 'material'
 </code></pre>
 
+<p>并使用定制自动运营脚本来完成编译和发布:</p>
 <pre><code class="sh">
 ༄  echo '' &gt; _trigger/deploy.md
 
 ༄  inv pub 101
 
+/opt/data/Sites/101.camp/_running
+
+     crt. PATH ===
+/Users/zoomq/Sites/101.camp/_running/gl_101.camp
+Already up-to-date.
+
+     crt. PATH ===
+/opt/data/Sites/101.camp/_running/zq_gh101camp
+Already up-to-date.
+
+     crt. PATH ===
+/Users/zoomq/Sites/101.camp/_running/gl_101.camp
+./_trigger
+TRIGGERed by deploy.md exist
+auto deplo NOW:
+
+...
+
+
+ 3 files changed, 76 insertions(+)
+To github.com:ZoomQuiet/gh101camp.git
+   9b88f3c..9ec3eab  master -&gt; master
+
+     powded by pub101CAMP v.191011.2042
 </code></pre>
 
 <h2 id="_2">是也乎</h2>
